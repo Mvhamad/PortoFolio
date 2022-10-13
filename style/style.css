@@ -1,0 +1,214 @@
+body{
+    margin: 0;
+    padding: 0;
+    
+    font-family: Georgia;
+    /*background-image: url(https://img.pikbest.com/backgrounds/20200528/white-abstract-background--backdrop-for-presentation-design-for-website-v_1772526jpg!bw700);
+    background-attachment: fixed;
+    background-size: 1550px 750px;*/
+    
+}
+/*barre de naviguation*/
+nav ul{
+    background-color: black;
+    list-style-type: none;
+    overflow: hidden;
+    width: 100%;
+    top: 0;
+    margin: 0;
+    padding: 0;
+    border: 1px solid;
+    position: fixed;
+    opacity: 0.7;
+}
+.listnav li{
+    color: white;
+    float: right;
+    
+}
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    
+}
+/*home*/
+
+#home{
+    background-image:url(https://media.lesechos.com/api/v1/images/view/622b5574e395aa02432a7b4d/1280x720/0701122371119-web-tete.jpg);
+    height: 100vh;
+    background-size: 215vh 100vh;
+}
+#home .my{
+    padding: 150px;
+    float: center;
+    border-radius: 10px; 
+    font-size: xx-large;
+    font-family: monospace; 
+    text-align: center;
+    position: static;
+    color: red;
+} 
+
+h2{
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bold;
+    text-decoration: underline;
+    font-family: Calibri;
+}
+
+/*Projet*/
+#work{
+    border: 2px solid;
+    background-image: url(https://media2.ledevoir.com/images_galerie/nwd_858459_683606/image.jpg);
+    background-attachment: fixed;
+    height: 100vh;
+    background-size: 215vh 100vh;
+    font-size: x-large;
+    color: white;
+    
+}
+.work-contener{
+    display: flex;
+    margin: 150px;
+    margin-top: 100px;
+    text-align: center;
+    
+    
+}
+#work .proj1{
+    border: 1px solid;
+    border-radius: 5px;
+    opacity: 0.85;
+    margin-right: 20px;
+    background-color:black;
+}
+#work .proj2{
+    border: 1px solid;
+    border-radius: 5px;
+    opacity: 0.85;
+    background-color:black;
+}
+#work .proj3{
+    border: 1px solid;
+    border-radius: 5px;
+    margin-left: 20px;
+    opacity: 0.85;
+    background-color:black;
+}
+.work-contener a{
+    text-decoration: none;
+    color:rgb(216, 132, 29);
+}
+
+/*CV*/
+#resume{
+    height: 100vh;
+    background-image: url(https://cdn-images.zety.fr/pages/modeles_cv_originaux_15.jpg?fit=crop&h=250&dpr=2);
+    background-size: 215vh 100vh;
+    color: white;
+}
+
+.F-D{
+    border: 2px solid;
+    border-radius: 10px;
+    padding: 50px;
+    width: 30%;
+    font-size: larger;
+    background-color:black;
+    opacity: 0.5;
+}
+.comp{
+    border: 2px solid;
+    border-radius: 10px;
+    padding: 50px;
+    width: 30%;
+    float: right;
+    margin-right: 70px;
+    font-size: larger;
+    background-color:black;
+    opacity: 0.5;
+}
+.lang{
+    border: 2px solid;
+    border-radius: 10px;
+    padding: 50px;
+    width: 30%;
+    margin: 150px;
+    font-size: larger;
+    background-color:black;
+    opacity: 0.5;
+}
+#resume > ul > div > li{
+    list-style-type:square;
+    text-decoration: underline;
+}
+
+/*Conctact*/
+#contact{
+    color: whitesmoke;
+    margin: 0;
+    height: 100vh;
+    background-image: url(https://img.freepik.com/photos-premium/blank-black-business-card-se-moquent-fond-noir-pour-nous-utiliser-informations-contact-design-templete_1962-357.jpg);
+    background-size: 215vh 100vh;
+    background-attachment: fixed;
+}
+#contact div{
+    border: 2px solid;
+    border-radius: 5px;
+    padding: 50px;
+    width: 40%;
+}
+.formulaire{
+    margin: 20px;
+}
+input{
+    width: 100%;
+    font-size: large;
+    
+}
+.mécontact{
+    float: right;
+    margin: 20px;
+}
+button[type=submit]{
+    background-color: green;
+    padding: 10px;
+    border-bottom: 3px;
+}
+button[type=reset]{
+    padding: 10px;
+}
+
+/*a propos*/
+#about{
+    background-color: white;
+    margin: 0;
+    height: 100vh;
+}
+#about div{
+    border: 2px solid;
+    border-radius: 15px;
+    margin: 50px;
+    padding: 100px;
+    float: left;
+    width: 40%;
+    text-align: center;
+    font-size: xx-large;
+}
+img{
+    width: 500px;
+    height: 600px;
+    border-radius: 15px;
+    /*margin: 200px;
+    margin-top: 70px;
+    float: right;*/
+}
+
+.pied{
+    text-align: right;
+    font-size: small;
+}
